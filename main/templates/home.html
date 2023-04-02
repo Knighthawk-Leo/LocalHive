@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/home.css' %}">
+    <title>LocalHive</title>
+</head>
+
+<body>
+    <div class="device-container">
+
+        <div class="navbar">
+
+            <div class=" text">
+
+                <div class="head">
+                    <h1>
+                        <!-- <i
+                      class="fa-sharp fa-solid fa-location-dot fa-flip"
+                      style="color: #ff6600"
+                      ></i
+                      > -->
+                        <span style="color: #ff6600">Local</span>Hive
+                    </h1>
+                    <p class="tagline">Discover. Explore. Locate.</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="available-devices">
+            <!-- <p class="ad-topic">Available Devices to track</p> -->
+           
+            <div class="ad-list">
+                <!-- <form action='/track' method='POST'>
+                    {% csrf_token %}
+                    "Cityname: " <input type='text' name='Devicename'>
+                    <input type='submit'>
+
+                </form> -->
+                <p>Host</p>
+                <form class="dropdown" action="/track" method="post">
+                    {% csrf_token %}
+                    <select class="select2" name="selected_name">
+                        <option value="jayash">Jayash</option>
+                        <option value="ranjit">Ranjit</option>
+                        <option value="yash">Yash</option>
+
+
+                    </select>
+                    <button type="submit">Submit</button>
+                </form>
+                <p>Available devices to track</p>
+                {% for i,j,k in zipped %}
+                {% if i != " " %}
+
+                <button class="live-device">
+                    <div class="device-name">{{i}}</div>
+                    <div class="signal">Signal Strength - <span class="signal-strength"> {{j}} </span></div>
+                    {% comment %} <div class="">{{k}}</div> {% endcomment %}
+                </button>
+                {% endif %}
+                {% endfor %}
+
+            </div>
+
+        </div>
+    </div>
+
+</body>
+<script src="main.js">
+</script>
+
+</html>

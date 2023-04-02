@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;0,800;0,900;1,400;1,700&display=swap");
+
+.device-container {
+  max-width: 50%;
+  margin: 0 auto;
+
+  padding-top: 7rem;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #212121;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  display: block;
+}
+
+.ad-list {
+  min-height: 20rem;
+  background-color: #1c1c1c;
+  border-radius: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+.ad-list {
+  padding: 1.5rem;
+  margin-top: 1rem;
+}
+.ad-list p {
+  margin-top: 1rem;
+  margin-bottom: 0.7rem;
+  margin-left: 0.5rem;
+  font-weight: bold;
+}
+
+.live-device {
+  background-color: black;
+  padding: 1rem;
+  border-radius: 1rem;
+  margin: 0.5rem 0;
+  transition: all 200ms ease-in-out;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+  width: 100%;
+  color: white;
+}
+.device-name {
+  font-weight: 600;
+}
+.live-device:hover {
+  background-color: #ff6600;
+  cursor: pointer;
+}
+
+.bold-hive {
+  font-weight: 600;
+  color: #ff6600;
+  font-weight: bolder;
+}
+.live-device {
+  font-weight: normal;
+}
+.live-device:hover .signal-strength {
+  color: white;
+}
+.signal {
+  font-size: 0.9rem;
+}
+
+.signal-strength {
+  font-weight: bolder;
+  color: #ff6600;
+}
+
+/* logo styling */
+
+.navbar {
+  width: 60%;
+}
+
+.head {
+  padding-bottom: 2rem;
+}
+.head h1 {
+  line-height: 2rem;
+  font-size: 3rem;
+  padding-bottom: 0.5rem;
+}
+.head p {
+  padding-bottom: 1rem;
+}
+
+.dropdown {
+  display: flex;
+}
+.dropdown select {
+  flex-grow: 1;
+  background-color: wheat;
+  border: none;
+  color: black;
+  padding: 1rem 0.5rem;
+  margin: 0.5rem 0;
+  margin: 0.5rem;
+
+  border-radius: 1rem;
+  font-weight: medium;
+  cursor: pointer;
+}
+.dropdown select option {
+  cursor: pointer;
+}
+
+.dropdown button {
+  width: 5rem;
+  margin: 0.5rem;
+  margin-left: 0.1rem;
+  margin-right: 0;
+  border-radius: 1rem;
+  background-color: #ff6600;
+  color: #ffffff;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+.map {
+ 
+    display: flex;
+     align-items: center;
+    justify-content: center;
+    margin-bottom: 3rem; 
+}
+table{
+    border-spacing: .2rem;
+}
+
+th , td{
+  height: 8rem;
+  width: 12rem;
+  background-color: black;
+  text-align: center;
+  font-weight: bolder;
+  border: 4px solid #ff6600;
+  /* border-radius: .1rem; */
+}
+
+.device-container h5 {
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+.active{
+    background-color: #ff6600;
+    color: white;
+}
+@media screen and (max-width: 800px) {
+  .device-container {
+    max-width: 85%;
+  }
+}

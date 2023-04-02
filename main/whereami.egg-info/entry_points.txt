@@ -1,0 +1,3 @@
+[console_scripts]
+whereami = whereami.__main__:main
+

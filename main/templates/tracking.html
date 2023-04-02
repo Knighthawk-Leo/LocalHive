@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  {% load static %}
+
+  <link rel="stylesheet" href="{% static 'css/home.css' %}" class="css" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Track</title>
+</head>
+
+<body>
+
+  <div class="device-container">
+
+    <div class="navbar">
+
+      <div class=" text">
+
+        <div class="head">
+          <h1>
+            <!-- <i
+                    class="fa-sharp fa-solid fa-location-dot fa-flip"
+                    style="color: #ff6600"
+                    ></i
+                    > -->
+            <span style="color: #ff6600">Local</span>Hive
+          </h1>
+          <p class="tagline">Discover. Explore. Locate.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="map">
+      <table class="table-l">
+        <thead>
+          <tr>
+            <th >Main Stage</th>
+            <th style="opacity: 0;"></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Hacking Area 1</td>
+            <td ">Hacking Area 2</td>
+          </tr>
+          <tr>
+            <td class="active" >Hacking Area 3</td>
+            <td>Hacking Area 4</td>
+          </tr>
+          <tr>
+            <td style="opacity: 0;"></td>
+            <td>Hacking Area 5</td>
+          </tr>
+          
+        </tbody>
+      </table>
+    </div>
+    <h5>Mini Map</h5>
+  </div>
+
+
+</body>
+
+</html>

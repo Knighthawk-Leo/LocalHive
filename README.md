@@ -1,4 +1,9 @@
 <p align="center"> 
+
+
+![localhive2 (2)](https://user-images.githubusercontent.com/69426049/229336518-a82353a1-5ead-4a0a-a3e1-047a7b46c608.png)
+
+
 <!--   <img src="https://iili.io/mZdVYx.png" alt="LocalHive Logo" width="100px" height="100px"> -->
 </p>
 <h1 align="center"> LocalHive </h1>
@@ -7,9 +12,11 @@
 
 
 <p align="center"> 
+
+  ![POSTER33](https://user-images.githubusercontent.com/69426049/229335763-4d1dff0f-fd2d-44ec-be01-a41b017fbd57.png)
+
   
   
-  ![WhatsApp Image 2023-04-02 at 11 09 03](https://user-images.githubusercontent.com/69426049/229334467-55b40cd3-2413-4089-abe1-8a786a5449d4.jpeg)
 
 </p>
 
@@ -36,6 +43,9 @@ The challenge is to build a machine learning model that can accurately predict t
 ![-----------------------------------------------------](https://iili.io/mZ2CyQ.png)
 
 <h2 id="overview"> Screenshots</h2>
+
+![WhatsApp Image 2023-04-02 at 11 09 03](https://user-images.githubusercontent.com/69426049/229336200-83bbd35a-ab94-4ffa-8b86-813bfa27391b.jpeg)
+
 
 
 ![WhatsApp Image 2023-04-02 at 11 09 06](https://user-images.githubusercontent.com/69426049/229334402-818031bf-6fdb-4c77-9faf-5c45b135764d.jpeg)
